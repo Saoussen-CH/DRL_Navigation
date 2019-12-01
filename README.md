@@ -1,11 +1,11 @@
 # Project 1: Navigation
 
-### Overview
+## Overview
 
 This project is solution for the first prject of the  [Udacity's Deep Reinforcement Learning Nanodegree (Facebook PyTorch Nanodegree Scholarship Phase 3)](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893). Value-Based-Methods such as Deep Q-Network (*DQN*) is used to train an agent to naviagte the world and collect yellow bananas while avoiding blue bananas. 
 
 
-### Introduction
+## Introduction
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
 
@@ -19,8 +19,8 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Getting Started
-## Download the Unity Environment:
+## Getting Started
+
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
@@ -39,7 +39,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ```
 
-### Description
+## Description
 
 - `dqn_agent.py`: code for the agent used in the environment
 - `model.py`: code containing the Deep Q-Network architecture used as the function approximator by the agent
@@ -47,13 +47,13 @@ The task is episodic, and in order to solve the environment, your agent must get
 - `Navigation.ipynb`: notebook containing the Project 1 Navigation Solution
 
 
-### Instructions
+## Instructions
 
 Follow the instructions in `Navigation_solution.ipynb` to get started with training your own agent! 
 To watch a trained smart agent, use the checkpoint `checkpoint_v1.pth` for loading the trained model.
 
 
-### Enhancements
+## Enhancements
 
 Several enhancements to the original DQN algorithm have also been incorporated:
 
@@ -61,7 +61,7 @@ Several enhancements to the original DQN algorithm have also been incorporated:
 - Prioritized Experience Replay [[Paper](https://arxiv.org/abs/1511.05952)]
 - Dueling DQN [[Paper](https://arxiv.org/abs/1511.06581)] 
 
-### Results
+## Results
 
 Plot showing the score per episode over all the episodes. The environment was solved in **402** episodes.
 
